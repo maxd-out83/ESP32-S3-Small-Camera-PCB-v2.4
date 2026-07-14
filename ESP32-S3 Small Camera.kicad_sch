@@ -12351,12 +12351,6 @@
 		(uuid "06baf0e6-5f7c-45d4-9bc3-b0805602d467")
 	)
 	(junction
-		(at 100.33 110.49)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "0ee4d96c-3d89-4476-a4da-f304821c5c16")
-	)
-	(junction
 		(at 135.89 113.03)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -12403,12 +12397,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "1dc73297-77a7-4ee0-b63d-d4f23e615d20")
-	)
-	(junction
-		(at 121.92 105.41)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "20972a89-21ce-463d-b158-61877eff9a8e")
 	)
 	(junction
 		(at 130.81 57.15)
@@ -12853,12 +12841,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "fb66c5ba-720a-4b5c-9395-1ec08f9cadd4")
-	)
-	(junction
-		(at 97.79 105.41)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "fcc2a22c-e179-4ebd-87e6-294009cc0fdc")
 	)
 	(no_connect
 		(at 273.05 151.13)
@@ -13324,16 +13306,6 @@
 	)
 	(wire
 		(pts
-			(xy 96.52 105.41) (xy 97.79 105.41)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "296d9cc0-0a56-4e2b-b6b3-bde68faca014")
-	)
-	(wire
-		(pts
 			(xy 73.66 172.72) (xy 73.66 173.99)
 		)
 		(stroke
@@ -13574,16 +13546,6 @@
 	)
 	(wire
 		(pts
-			(xy 113.03 105.41) (xy 121.92 105.41)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "4144a11b-ff73-4364-b0d1-be42cd133504")
-	)
-	(wire
-		(pts
 			(xy 140.97 45.72) (xy 140.97 52.07)
 		)
 		(stroke
@@ -13641,16 +13603,6 @@
 			(type default)
 		)
 		(uuid "44d8f735-cc2f-4658-bdc8-86e1a0b8f43f")
-	)
-	(wire
-		(pts
-			(xy 97.79 105.41) (xy 100.33 105.41)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "450f9a7c-073d-4d04-9214-b0e8467d4de0")
 	)
 	(wire
 		(pts
@@ -15084,16 +15036,6 @@
 	)
 	(wire
 		(pts
-			(xy 97.79 110.49) (xy 100.33 110.49)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b2cc78f4-2a82-4f5f-8a13-7bf2f8cac07e")
-	)
-	(wire
-		(pts
 			(xy 15.24 66.04) (xy 22.86 66.04)
 		)
 		(stroke
@@ -15494,16 +15436,6 @@
 	)
 	(wire
 		(pts
-			(xy 100.33 107.95) (xy 100.33 110.49)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d0d03f59-814a-4af4-901c-d2e90860d6c8")
-	)
-	(wire
-		(pts
 			(xy 97.79 26.67) (xy 97.79 29.21)
 		)
 		(stroke
@@ -15691,16 +15623,6 @@
 			(type default)
 		)
 		(uuid "e3760b8e-3f7e-4212-a4fc-e98df4acbd22")
-	)
-	(wire
-		(pts
-			(xy 121.92 105.41) (xy 123.19 105.41)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e3d70413-660d-4f9d-9abd-9d4dd8284494")
 	)
 	(wire
 		(pts
@@ -16644,7 +16566,7 @@
 	)
 	(global_label "DOVDD"
 		(shape bidirectional)
-		(at 123.19 105.41 0)
+		(at 113.03 105.41 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -16654,7 +16576,7 @@
 		)
 		(uuid "2e14f1ac-3c15-451f-b2a2-191b0bd05622")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 129.3856 105.41 0)
+			(at 119.2256 105.41 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17436,7 +17358,7 @@
 	)
 	(global_label "VCC_3V3"
 		(shape bidirectional)
-		(at 96.52 105.41 180)
+		(at 100.33 105.41 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -17446,7 +17368,7 @@
 		)
 		(uuid "6a13834b-953e-4180-9a4c-e395b9abc804")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 89.1996 105.41 0)
+			(at 93.0096 105.41 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17626,7 +17548,7 @@
 			)
 		)
 	)
-	(global_label "D-X"
+	(global_label "D+X"
 		(shape bidirectional)
 		(at 200.66 148.59 90)
 		(fields_autoplaced yes)
@@ -17866,7 +17788,7 @@
 			)
 		)
 	)
-	(global_label "D+X"
+	(global_label "D-X"
 		(shape bidirectional)
 		(at 203.2 148.59 90)
 		(fields_autoplaced yes)
@@ -20129,7 +20051,7 @@
 	(symbol
 		(lib_name "GND_1")
 		(lib_id "power:GND")
-		(at 100.33 110.49 0)
+		(at 100.33 107.95 270)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -20139,7 +20061,7 @@
 		(dnp no)
 		(uuid "0cc4d5bb-7ccf-4dec-8ac9-ff54ccd7c220")
 		(property "Reference" "#PWR038"
-			(at 100.33 116.84 0)
+			(at 93.98 107.95 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -20150,7 +20072,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 98.806 112.268 0)
+			(at 98.298 109.22 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -20160,7 +20082,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 100.33 110.49 0)
+			(at 100.33 107.95 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -20171,7 +20093,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 100.33 110.49 0)
+			(at 100.33 107.95 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -20182,7 +20104,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 100.33 110.49 0)
+			(at 100.33 107.95 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -23131,96 +23053,6 @@
 			(project "ESP32-S3 Small Camera"
 				(path "/ab1f1d5f-3b16-465c-a1df-ef08c3c8fa3a"
 					(reference "#PWR08")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C_Small")
-		(at 97.79 107.95 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "5937b5b9-f7d2-4bfa-9e27-9eccf4565190")
-		(property "Reference" "C35"
-			(at 94.488 108.204 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 0.762 0.762)
-				)
-			)
-		)
-		(property "Value" "100nF"
-			(at 94.742 109.22 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 0.762 0.762)
-				)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric"
-			(at 97.79 107.95 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 97.79 107.95 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "100nF 16V X7R ±10% 0201 Multilayer Ceramic Capacitors MLCC - SMD/SMT ROHS"
-			(at 97.79 107.95 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "LCSC" "C18164586"
-			(at 97.79 107.95 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "de68ec28-ae2a-46b0-9d6b-e8e829d9c187")
-		)
-		(pin "1"
-			(uuid "a619724f-5681-4246-b09a-c3a9b0342080")
-		)
-		(instances
-			(project "ESP32-S3 Small Camera"
-				(path "/ab1f1d5f-3b16-465c-a1df-ef08c3c8fa3a"
-					(reference "C35")
 					(unit 1)
 				)
 			)
@@ -26597,96 +26429,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C_Small")
-		(at 121.92 107.95 180)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "9497470a-88ba-45b6-b4da-77dd52bc1f41")
-		(property "Reference" "C38"
-			(at 124.968 107.442 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 0.762 0.762)
-				)
-			)
-		)
-		(property "Value" "100nF"
-			(at 125.73 108.712 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 0.762 0.762)
-				)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric"
-			(at 121.92 107.95 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 121.92 107.95 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "100nF 16V X7R ±10% 0201 Multilayer Ceramic Capacitors MLCC - SMD/SMT ROHS"
-			(at 121.92 107.95 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "LCSC" "C18164586"
-			(at 121.92 107.95 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "5cd4b1f1-6104-4271-afe6-0a0759359e24")
-		)
-		(pin "1"
-			(uuid "fee737c6-6f68-4e6f-87b4-6d6e97d1594c")
-		)
-		(instances
-			(project "ESP32-S3 Small Camera"
-				(path "/ab1f1d5f-3b16-465c-a1df-ef08c3c8fa3a"
-					(reference "C38")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GND")
 		(at 80.01 175.26 0)
 		(unit 1)
@@ -28057,84 +27799,6 @@
 			(project "ESP32-S3 Small Camera"
 				(path "/ab1f1d5f-3b16-465c-a1df-ef08c3c8fa3a"
 					(reference "C17")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_name "GND_1")
-		(lib_id "power:GND")
-		(at 121.92 110.49 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "aa069997-bb1c-43b5-9724-82c9f37a076a")
-		(property "Reference" "#PWR043"
-			(at 121.92 116.84 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "GND"
-			(at 123.952 110.998 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 0.762 0.762)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 121.92 110.49 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 121.92 110.49 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 121.92 110.49 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "3348db9a-f9e8-4d58-97dc-6b3a5d269250")
-		)
-		(instances
-			(project "ESP32-S3 Small Camera"
-				(path "/ab1f1d5f-3b16-465c-a1df-ef08c3c8fa3a"
-					(reference "#PWR043")
 					(unit 1)
 				)
 			)
