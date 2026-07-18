@@ -22877,7 +22877,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+		(property "Footprint" "PCM_JLCPCB:C_0402"
 			(at 141.732 34.29 90)
 			(hide yes)
 			(show_name no)
@@ -23613,7 +23613,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+		(property "Footprint" "PCM_JLCPCB:C_0402"
 			(at 117.602 34.29 90)
 			(hide yes)
 			(show_name no)
@@ -30266,7 +30266,7 @@
 				)
 			)
 		)
-		(property "Description" "1.04A 18@250MHz 2nH 6GHz 70mΩ ±10% 0402 Inductors (SMD) ROHS"
+		(property "Description" "2nH 6GHz 8@100MHz 900mA 90mΩ Multilayer inductor、High-frequency inductor 0402 Inductors (SMD) ROHS"
 			(at 127 39.37 0)
 			(hide yes)
 			(show_name no)
@@ -30277,7 +30277,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C317665"
+		(property "LCSC" "C3032791"
 			(at 127 39.37 90)
 			(hide yes)
 			(show_name no)
